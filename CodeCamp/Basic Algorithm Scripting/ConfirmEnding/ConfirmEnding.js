@@ -10,8 +10,11 @@ function confirmEnding(str, target) {
   var start = (str.length - targetLen);
 
   // compare the right number of characters in the str to the target by slicing
+  // The slice() method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included). The original array will not be modified.
   var strSplice = str.slice(start, str.length);
 
+  // == is equal value
+  // === is equal value and equal type
   if(target == strSplice){
     confirmed = true;
   }

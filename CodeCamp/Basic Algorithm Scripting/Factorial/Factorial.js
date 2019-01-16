@@ -11,6 +11,7 @@ function factorialize(num) {
     factorialSum *= num;
     num --;
   }
+  // returns 1 if num = 0. 0! = 1;
 
   return factorialSum;
 }
