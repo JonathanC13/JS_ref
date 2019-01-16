@@ -34,3 +34,8 @@ console.log(capped);
 
 var capped1 = titleCase("sHoRt AnD sToUt");
 console.log(capped1);
+
+
+// note for strings
+// In JavaScript, String values are immutable, which means that they cannot be altered once created.
+// The only way to change myStr would be to assign it with a new string

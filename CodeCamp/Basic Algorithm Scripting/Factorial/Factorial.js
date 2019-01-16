@@ -7,9 +7,14 @@ function factorialize(num) {
 
   var factorialSum = 1;
 
-  while (num > 0 ){
-    factorialSum *= num;
-    num --;
+  if (num >= 0){
+    while (num > 0 ){
+      factorialSum *= num;
+      num --;
+    }
+    // factorialSum = 1; if num = 0
+  } else if (num < 0){
+    factorial = "Please input a positive integer.";
   }
   // returns 1 if num = 0. 0! = 1;
 
